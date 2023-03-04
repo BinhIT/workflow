@@ -1,0 +1,1 @@
+export { defautlt as Defautlayout } from './Defautlayout';
