@@ -1,0 +1,29 @@
+.wrapper {
+    background-color: #eff0f3;
+    cursor: default;
+    position: fixed;
+    top: 0px;
+    transition: background-color 0.5s ease 0s, box-shadow 0.5s ease 0s;
+    width: 100vw;
+    z-index: 100;
+}
+.caTbTe {
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    display: flex;
+    height: 60px;
+    margin: 0px auto;
+    max-width: 1320px;
+}
+.logo {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+}
+.svg {
+    display: block;
+    height: auto;
+    max-width: 100% !important;
+    width: auto;
+}

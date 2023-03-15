@@ -1,0 +1,81 @@
+$base-color: #118eff;
+$primarybtn: rgb(0, 101, 255);
+$defauttext: rgb(255, 255, 255);
+.wrapper {
+    background-color: #ffffff;
+    cursor: default;
+    position: fixed;
+    top: 0px;
+    transition: background-color 0.5s ease 0s, box-shadow 0.5s ease 0s;
+    width: 100vw;
+    z-index: 100;
+}
+.caTbTe {
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    display: flex;
+    height: 60px;
+    margin: 0px auto;
+    max-width: 1224px;
+    .logo {
+        -webkit-box-align: center;
+        align-items: center;
+        display: flex;
+        padding: 1rem;
+        width: 200px;
+        .svg {
+            display: block;
+            height: auto;
+            max-width: 100% !important;
+            width: auto;
+        }
+    }
+    .div_btn_main_menu {
+        display: flex;
+        position: relative;
+        .btn_main_menu {
+            -webkit-box-align: center;
+            align-items: center;
+            align-self: stretch;
+            color: rgb(23, 43, 77);
+            cursor: pointer;
+            display: flex;
+            font-size: 1rem;
+            padding: 1.25rem 1rem 1rem;
+            user-select: none;
+            border: 0px;
+            background-color: transparent;
+            gap: 0.25rem;
+        }
+    }
+    .btn_register_menu {
+        -webkit-box-align: stretch;
+        align-items: stretch;
+        display: flex;
+        margin-left: auto;
+        .btnprimary {
+            background-color: $base-color;
+            color: $defauttext;
+            -webkit-box-align: center;
+            align-items: center;
+            align-self: stretch;
+            display: flex;
+            font-size: 1.2rem;
+            height: 100%;
+            padding: 0rem 1.5rem;
+            text-decoration: none;
+        }
+        .btndefault {
+            background-color: #ffffff;
+            color: #000;
+            -webkit-box-align: center;
+            align-items: center;
+            align-self: stretch;
+            display: flex;
+            font-size: 1.2rem;
+            height: 100%;
+            padding: 0rem 1.5rem;
+            text-decoration: none;
+        }
+    }
+}
